@@ -3,14 +3,16 @@
 	<title>Numero més gran i més petit d'una array</title>
  
 <script type="text/javascript">
-var num = 10;
+	
+	//Comentari del projecte1
+var num = 10;			
 var Array = new Array(num);
 for(var i=0;i<num;i++){
     var nums = prompt("numeros");
     Array[i]=nums;
     var max = Math.max.apply(null,Array);
     var min = Math.min.apply(null,Array);
-}
+	}
  
     document.write(max+"<br>"+min);
 
