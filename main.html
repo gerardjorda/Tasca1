@@ -1,15 +1,15 @@
 <html>
 <head>
-	<title>Numero Mayor de un arreglo</title>
+	<title>Numero més gran i més petit d'una array</title>
  
 <script type="text/javascript">
-var num = 7;
-var miArray = new Array(num);
-for(var y=0;y<num;y++){
-    var nums = prompt("nums");
-    miArray[y]=nums;
-    var max = Math.max.apply(null,miArray);
-    var min = Math.min.apply(null,miArray);
+var num = 10;
+var Array = new Array(num);
+for(var i=0;i<num;i++){
+    var nums = prompt("numeros");
+    Array[i]=nums;
+    var max = Math.max.apply(null,Array);
+    var min = Math.min.apply(null,Array);
 }
  
     document.write(max+"<br>"+min);
